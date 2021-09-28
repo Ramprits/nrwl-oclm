@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Route, Link } from 'react-router-dom';
-
 import styled from 'styled-components';
 import { fetchHome, selectAllHome } from './home.slice';
 
@@ -10,7 +8,7 @@ import { fetchHome, selectAllHome } from './home.slice';
 export interface HomeProps {}
 
 const StyledHome = styled.div`
-  color: pink;
+  color: black;
 `;
 
 export function Home(props: HomeProps) {
